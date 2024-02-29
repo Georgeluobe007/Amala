@@ -50,5 +50,6 @@
 .bottom{ 
   border-collapse: collapse;
   border: 1px solid black;
+  font-size: .7rem;
 }
 }

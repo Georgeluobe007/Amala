@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import {ConsumerProvider} from './ContextApi'
+
 import TAbleHead from './TAbleHead'
 import '../ComponentsCSS/Printer.css'
 export default class Printer extends Component {
@@ -8,6 +9,8 @@ export default class Printer extends Component {
       const btn = document.getElementById("btn");
       if(btn){
         btn.style.display = "none"
+      }else{
+       
       }
      window.print();
      
