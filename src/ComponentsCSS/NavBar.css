@@ -1,0 +1,57 @@
+.container{
+    background-color: blue;
+    height: 3rem;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+   }
+   .container_div{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+   }
+   .cart{
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 1rem;
+ }
+ .linkcart{
+     text-decoration: none;
+     color: white;
+ }
+.food{
+   font-size: 1rem;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-right: 1rem;
+}
+.linkFood{
+    text-decoration: none;
+    color: white;
+}
+.meatfish{
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 1rem;
+}
+.linkmeatfish{
+    text-decoration: none;
+    color: white;
+}
+.drink{
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 1rem;
+}
+.linkdrink{
+    text-decoration: none;
+    color: white;
+}
+@media only screen and (max-width:500px) {
+    .container{
+        background-color: red;
+        width: 400px;
+    }
+ 
+}

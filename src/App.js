@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-
+import NavBar from './Components/NavBar';
+import Food from './Components/Food';
+import Fishmeat from './Components/Fishmeat';
+import Dinks from './Components/Dinks';
+import {Route,Routes} from 'react-router-dom'
+import Cart from './Components/Cart'
+import Printer from './Components/Printer'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <NavBar/>
+     <Routes>
+     <Route path='/food' element={<Food/>}/>
+     <Route path='/meatfish' element={<Fishmeat/>}/>
+     <Route path='/drink' element={<Dinks/>}/>
+     <Route path='/cart' element={<Cart/>}/>
+     <Route path='/printer' element={<Printer/>}/>
+    </Routes>
+     
     </div>
   );
 }

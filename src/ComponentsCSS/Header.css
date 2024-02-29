@@ -1,0 +1,93 @@
+table.d {
+    table-layout: fixed;
+    width: 100%;
+   
+  }
+  .tableHead{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+  .rotate{
+  rotate: 45deg;;
+  }
+  .remove{
+    cursor: pointer;
+  }
+  .myh2{
+    margin-left: auto;
+  }
+ .clear{
+    width: 5rem;
+    height: 2rem;
+    background-color: blue;
+    color: white;
+    border: none;
+  }
+  .clear:hover{
+    background-color: red;
+    color: blue;
+  }
+.sendTOprint{
+    width: 5rem;
+    height: 2rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-left: 2rem;
+  }
+  .sendTOprint:hover{
+    background-color: yellow;
+    color: red;
+  }
+
+  .printBtn{
+    width: 4rem;
+    height: 2rem;
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.1rem;
+  }
+  .printBtn:hover{
+    background-color: green;
+    color: whitesmoke;
+  }
+  .header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+  }
+  .decrease-btn{
+    height: 2rem;
+    width: 2rem;
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+  }
+  .decrease-btn:hover{
+    background-color: green;
+    color: white;
+  }
+  @media only screen and (max-width:500px) {
+    .header{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 0.7rem
+    }
+    .foodName{
+      font-size: 0.7rem 
+    }
+    .myh2{
+      font-size: small;
+    }
+    .decrease-btn{
+      height: 1rem;
+      width: 1rem;
+      background-color: blue;
+      color: white;
+      font-size: .5rem;
+    }
+  }
+
+ 

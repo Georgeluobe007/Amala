@@ -1,0 +1,40 @@
+.data-fetch-food{ 
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+   
+}
+
+ .photoWork-food{
+    margin-top: 1rem;
+    padding: auto;
+    }
+  
+    .display-food{
+     width: 10rem;
+     height: 10rem;
+     font-size: 1.5rem;
+     cursor: pointer;
+     border:none;
+    }
+    @media only screen and (max-width:500px){
+      .data-fetch-food{ 
+         display: grid;
+         grid-template-columns: repeat(4,1fr);
+         
+      }
+       .photoWork-food{
+        margin-top: 1rem;
+        padding: 0.5rem;
+        }
+      
+        .display-food{
+         width: 5rem;
+         height: 5rem;
+         font-size: 1rem;
+         cursor: pointer;
+         border:none;
+        }
+         
+         }
+    
+    

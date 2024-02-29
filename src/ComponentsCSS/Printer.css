@@ -1,0 +1,54 @@
+.headerClass{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+ table.print{
+    border-collapse: collapse;
+    width: 25%;
+    border: 1px solid black;
+ }
+
+.head{
+  border-collapse: collapse;
+  width: 25%;
+  border: 1px solid black;
+}
+  .bottomWork{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7rem;
+  }
+  .bottom{
+    
+    border-collapse: collapse;
+    width: 25%;
+    border: 1px solid black;
+  }
+  button,h4{
+    margin: 0;
+    border: 0;
+  }
+@media only screen and (max-width:500px) {
+ table.print{
+    border: 1px solid black;
+     border-collapse: collapse;
+     width: 80%;
+   
+ }
+ .head{
+  border-collapse: collapse;
+  font-size: .7rem;
+  border: 1px solid black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+}
+.bottom{ 
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+}
