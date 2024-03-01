@@ -37,3 +37,24 @@
        }
         
         }
+        @media only screen and (max-width:1000px){
+         .data-fetch-drink{ 
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            
+         }
+         
+         .photoWork-diink{
+          margin-top: 1rem;
+          padding: 0.5rem;
+          }
+        
+          .display-drink{
+           width: 5rem;
+           height: 5rem;
+           font-size: 1rem;
+           cursor: pointer;
+           border:none;
+          }
+           
+           }

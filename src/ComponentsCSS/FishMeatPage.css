@@ -37,4 +37,25 @@
          
          }
     
-    
+         @media only screen and (max-width:1000px){
+            .data-fetch-meat{ 
+               display: grid;
+               grid-template-columns: repeat(4,1fr);
+               
+            }
+             .photoWork-meat{
+              margin-top: 1rem;
+              padding: 0.5rem;
+              }
+            
+              .display-meat{
+               width: 5rem;
+               height: 5rem;
+               font-size: 1rem;
+               cursor: pointer;
+               border:none;
+              }
+               
+               }
+          
+          

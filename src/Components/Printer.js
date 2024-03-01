@@ -7,11 +7,15 @@ export default class Printer extends Component {
   render() {
     const makeprinter = () => {
       const btn = document.getElementById("btn");
+      const conDiv = document.getElementById("con-div");
+     
       if(btn){
         btn.style.display = "none"
+        
       }else{
-       
+       conDiv.style.display = "none"
       }
+   
      window.print();
      
     }

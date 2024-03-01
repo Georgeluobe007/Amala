@@ -6,7 +6,7 @@ function NavBar() {
     <div className='container'>
        <div className='container_div'>
        <div className='cart'>
-        <Link className='linkcart' to='/cart'>Check Cart</Link>
+        <Link className='linkcart' to='/cart'  id='con-div'>Check Cart</Link>
        </div>
        <div className='food'>
         <Link className='linkFood' to='/food'>Food</Link>
