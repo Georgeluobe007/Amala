@@ -6,9 +6,9 @@ function TAbleHead() {
         <table className='print'>
             <tr>
             <th className='head'>Item</th>
-            <th className='head'>Price(unit)</th>
-            <th className='head'>Qnty</th>
-            <th className='head'>Subtotal</th>
+            <th className='head'>unit</th>
+            <th className='head'>Qnt</th>
+            <th className='head'>SubT</th>
             </tr>
           
         </table>

@@ -24,9 +24,9 @@ export default class Printer extends Component {
               const {carts, cartsubtotal} = value;
               return(
                   <div>
-                    <div>{carts.map(mapValue => {
+                    <div>{carts.map((mapValue,key) => {
                       return (
-                        <div className='bottomWork'>
+                        <div key={key} className='bottomWork'>
                           <table className='print'>
                           <tr>
                           <th className='bottom'>{mapValue.nameOfFood}</th>
@@ -39,7 +39,7 @@ export default class Printer extends Component {
                       )
                     })}</div>
                     <div className='total-btn'>
-                    <h4>TOTAL:{cartsubtotal}</h4>
+                    <h4 className='total'>TOTAL:{cartsubtotal}</h4>
                     <button onClick={makeprinter} className='printBtn' id='btn'>Print</button>
                     </div>
                   </div>

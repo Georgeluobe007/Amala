@@ -52,4 +52,14 @@
   border: 1px solid black;
   font-size: .7rem;
 }
+.total{
+  font-size: 0.7rem;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.printBtn{
+  width: 2.5rem;
+  height: 1rem;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
 }
