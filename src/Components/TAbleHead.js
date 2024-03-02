@@ -7,7 +7,7 @@ function TAbleHead() {
             <tr>
             <th className='head'>Item</th>
             <th className='head'>unit</th>
-            <th className='head'>Qnt</th>
+            <th className='head'>Qty</th>
             <th className='head'>SubT</th>
             </tr>
           

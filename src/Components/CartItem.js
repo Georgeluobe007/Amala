@@ -6,12 +6,17 @@ function CartItem({items,value}) {
     const {remove,increase,decrease} = value;
     window.onbeforeunload = ()=>"If you leave this page, you'll also leave the call";
 
+    const num = total;
+    const options = {maximumFractionDigits: 2} 
+    const formattedNumber = Intl.NumberFormat("en-US",options).format(num);
+    
+
    return (
                 <div>
                 <table className='d'>
                 <tr>
                 <th className='foodName'>{nameOfFood}</th>
-                <th className='foodName'>{price}</th>
+                <th className='foodName'>{formattedNumber}</th>
                 <th className='tableHead'>
                   <button className='decrease-btn' onClick={() => decrease(id)}>-</button>
                   <p className='foodName'>{count}</p>
@@ -20,7 +25,7 @@ function CartItem({items,value}) {
                 <th onClick={() => remove(id)} className='remove'>
                 < RemoveShoppingCartIcon style={{width:"1.2rem",height:"1.2rem",color:"red"}}/>
                 </th>
-                <th className='foodName'>{total}</th>
+                <th className='foodName'>{formattedNumber}</th>
                 </tr>
                 </table>
              </div>
